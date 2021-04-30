@@ -91,6 +91,42 @@ ul{
     right: 35px;
 }
 
+.piano-dropbox{
+   height: auto;
+    width:1200px;
+    border: 1px solid black;
+   
+}
+
+.trova-piano h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.trova-piano input{
+   margin-left:30px;
+}
+
+
+
+.professional, .standard, .advanced{
+    width: calc(100% /3 - 160px);
+    margin-left: 120px;
+    border: 1px solid black;
+}
+
+.enterprise{ 
+
+    border: 1px solid black; 
+     width: 80%; 
+     margin-top:20px;
+     margin-left: 120px;
+     display: inline-block;
+     
+     
+    
+} 
 
 
 
@@ -100,12 +136,3 @@ ul{
 
 
 
-
-
-
-
-
-
-
-
-;
