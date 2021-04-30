@@ -170,13 +170,13 @@ ul{
 .business-images{
     margin-top:50px;
     padding-left:120px; 
-    
     width:1200px;
-    height: auto;
+   
+   
 }
 
 .business-images img{
-    /* margin-left: 100px; */
+   
     width: 180px;
     height: 150px;
 }
@@ -188,9 +188,27 @@ ul{
     height: 260px;
     margin-top: 30px;
   
-  
-   
 }
 
+.logo-partner{
+    width: 1200px;
+    height: 400px;
+    background-color: blue;
+}
 
+.team{
+    margin-left: 120px;
+    margin-bottom:50px;
+}
 
+.loghi-left, .loghi-center, .loghi-right{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.sotto-partner-logo{
+    width: 1200px;
+    height: 150px;
+    background-color: lightblue;
+}
