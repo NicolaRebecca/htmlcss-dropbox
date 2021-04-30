@@ -77,6 +77,14 @@ ul{
     text-align: left;
 }
 
+.testo-sotto-titolo button, .testo-partner button {
+    width: 160px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: blue;
+    color: white;
+}
+
 .img-destra img{
 
     max-width: 600px;
@@ -94,7 +102,7 @@ ul{
 .piano-dropbox{
    height: auto;
     width:1200px;
-    border: 1px solid black;
+   
    
 }
 
@@ -120,19 +128,69 @@ ul{
 
     border: 1px solid black; 
      width: 80%; 
-     margin-top:20px;
+     margin-top:30px;
      margin-left: 120px;
      display: inline-block;
      
-     
-    
 } 
 
+.enterprise button, .professional button, .standard button, .advanced button {
+    width: 160px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.partner{
+    margin-top:40px;
+    padding-left: 120px;
+    padding-right:120px;
+    width:1200px;
+    height: auto;
+    
+    
+}
+
+.partner img{
+    width: 450px;
+    height:380px;
+}
+
+.testo-partner{
+    margin-top: 100px;
+    width: 400px;
+    text-align: left;
+}
 
 
+.business-images{
+    margin-top:50px;
+    padding-left:120px; 
+    
+    width:1200px;
+    height: auto;
+}
 
+.business-images img{
+    /* margin-left: 100px; */
+    width: 180px;
+    height: 150px;
+}
 
-
+.b-img-1, .b-img-2, .b-img-3, .b-img-4, .b-img-5, .b-img-6{
+    margin-left: 60px;
+    padding-bottom: 400px;
+    width: 250px;
+    height: 260px;
+    margin-top: 30px;
+  
+  
+   
+}
 
 
 
