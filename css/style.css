@@ -152,7 +152,6 @@ ul{
     width:1200px;
     height: auto;
     
-    
 }
 
 .partner img{
@@ -193,7 +192,7 @@ ul{
 .logo-partner{
     width: 1200px;
     height: 400px;
-    background-color: blue;
+   
 }
 
 .team{
@@ -204,11 +203,113 @@ ul{
 .loghi-left, .loghi-center, .loghi-right{
     width: 400px;
     height: 400px;
-    border: 1px solid black;
+   
+}
+
+
+.sponsor-1, .sponsor-2, .sponsor-3, .sponsor-4, .sponsor-6, .sponsor-7, .sponsor-8, .sponsor-9{
+    width: 199px;
+    height: 199px;
+   
+}
+
+.logo-partner img{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.sponsor-1{
+    background-color: rgb(103, 167, 101);
+}
+
+.sponsor-2{
+    background-color: rgb(105, 12, 6);
+}
+
+.sponsor-3{
+    background-color: rgb(5, 173, 196);
+}
+
+.sponsor-4{
+    background-color: rgb(241, 27, 12);
+}
+
+#clear-channel{
+text-align: center;
+ font-size: 12px;
+   
+}
+
+.sponsor-6{
+    background-color: rgb(204, 24, 11);
+}
+
+.sponsor-7{
+    background-color: rgb(13, 193, 199);
+}
+
+.sponsor-8{
+    background-color: rgb(28, 57, 185);
+}
+
+.sponsor-9{
+    background-color: rgb(198, 218, 18);
 }
 
 .sotto-partner-logo{
     width: 1200px;
-    height: 150px;
+    height: 200px;
     background-color: lightblue;
 }
+
+.sotto-partner-logo h2{
+   padding-top: 80px;
+   padding-left: 80px;
+    color: maroon;
+    font-size: 35px;
+}
+
+.sotto-partner-logo button{
+ width: 160px;
+ height: 30px;
+ border-radius: 1px;
+ background-color: rgb(255, 255, 255);
+ color: rgb(7, 7, 7);
+ margin-right: 200px;
+ 
+}
+
+.faq{
+margin-top:100px;
+padding-left: 120px;
+padding-right:120px;
+width:1200px;
+height: 300px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    margin-top:100px;
+    padding-top:100px;
+    padding-left: 120px;
+    padding-right:120px;
+    width:1200px;
+    height: 380px;
+    border: 1px solid black;
+    }
+
+    footer ul{
+        font-size: 12px;
+        padding-left: 80px;
+        
+    }
+
+    .language{
+        margin-top: 80px;
+        margin-left: 80px;
+        display: inline-block;
+        font-size: 12px;
+    }
