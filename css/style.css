@@ -24,6 +24,7 @@ ul{
 }
 
 .container{
+    font-family: 'Roboto', sans-serif;
     max-width: 1200px;
     margin:0 auto;
     
@@ -40,7 +41,7 @@ ul{
 
 .logo li {
     display: inline-block;
-    margin-left:30px;
+    margin-left:10px;
     vertical-align: middle;
 }
 
@@ -56,7 +57,7 @@ ul{
     margin-top: 10px;
     width: 1200px;
     height: 500px;
-    background-color: rgb(33, 178, 223);
+    background-color: rgb(180, 208, 231);
     position: relative;
 }
 
@@ -70,6 +71,7 @@ ul{
 }
 
 .testo-sotto-titolo{
+    font-size: 14px;
     padding-left: 150px;
     margin-top: 50px;
     width: 400px;
@@ -107,32 +109,49 @@ ul{
 }
 
 .trova-piano h2{
-    margin-top: 100px;
+    font-size: 30px;
+    margin-top: 120px;
     text-align: center;
 }
 
 
 .trova-piano input{
-   margin-left:30px;
+    margin-top: 50px;
+    margin-right: 5px;
+   margin-left:120px;
 }
 
 
 
 .professional, .standard, .advanced{
+    height: 550px;
     width: calc(100% /3 - 160px);
     margin-left: 120px;
-    border: 1px solid black;
+    border: 1px  solid gray;
 }
 
 .enterprise{ 
 
-    border: 1px solid black; 
+    border: 1px solid gray; 
      width: 80%; 
      margin-top:30px;
      margin-left: 120px;
      display: inline-block;
      
 } 
+
+.tipo-abbonamento{
+    text-align:center;
+    width: auto;
+    height: 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+.descrizione-abbonamento{
+    padding-left:20px;
+    font-size: 14px;
+}
 
 .enterprise button, .professional button, .standard button, .advanced button {
     width: 160px;
@@ -208,8 +227,8 @@ ul{
 
 
 .sponsor-1, .sponsor-2, .sponsor-3, .sponsor-4, .sponsor-6, .sponsor-7, .sponsor-8, .sponsor-9{
-    width: 199px;
-    height: 199px;
+    width: 200px;
+    height: 200px;
    
 }
 
@@ -236,11 +255,12 @@ ul{
     background-color: rgb(241, 27, 12);
 }
 
-#clear-channel{
-text-align: center;
- font-size: 12px;
-   
+.loghi-center{
+    background-color: rgb(216, 210, 210);
+    padding-left:20px;
+    font-size:12px;
 }
+
 
 .sponsor-6{
     background-color: rgb(204, 24, 11);
@@ -278,6 +298,7 @@ text-align: center;
  background-color: rgb(255, 255, 255);
  color: rgb(7, 7, 7);
  margin-right: 200px;
+ margin-top: 80px;
  
 }
 
@@ -287,6 +308,10 @@ padding-left: 120px;
 padding-right:120px;
 width:1200px;
 height: 300px;
+}
+
+.flag{
+    margin-right: 20px;
 }
 
 footer{
